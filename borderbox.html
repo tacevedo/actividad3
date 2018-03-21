@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>Box Model</title>
+    <style>
+      body{
+        margin: 0;
+      }
+
+      .box{
+        height: 100px;
+        background-color: gray;
+        border: 5px solid #000;
+        width: 25%;
+        box-sizing: border-box;
+        display: inline-block;
+        float: left;
+      }
+      .clearfix{ clear:both;}
+    </style>
+  </head>
+  <body>
+
+      <span class="box"></span>
+      <span class="box"></span>
+      <span class="box"></span>
+      <span class="box"></span>
+      <div class="clearfix"></div>
+  </body>
+</html>
