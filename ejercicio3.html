@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ejercicio3</title>
+    <style media="screen">
+      .contenedor{
+        width: 50%;
+        float: left;
+        min-height: 300px;
+      }
+      .espana{
+        width: 200px;
+        height: 100px;
+        position: relative;
+        background-color: red;
+      }
+      .amarillo{
+        height: 30px;
+        position: absolute;
+        top: calc(50% - 15px);
+        background-color: yellow;
+        width: 100%;
+      }
+      .dinamarca{
+        width: 200px;
+        height: 100px;
+        position: relative;
+        background-color: red;
+      }
+      .vertical{
+        width: 10px;
+        height: 100%;
+        background-color: #fff;
+        position: absolute;
+        left: 30px;
+        top: 0;
+      }
+      .horizontal{
+        width: 100%;
+        height: 10px;
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        top: calc(50% - 5px);
+      }
+      .emiratos{
+        width: 200px;
+        height: 100px;
+        position: relative;
+        background-color: #fff;
+      }
+      .roja{
+        width: 40px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: red;
+        z-index: 1;
+      }
+      .verde{
+        width: 100%;
+        height: 33%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: green;
+      }
+      .negra{
+        width: 100%;
+        height: 33%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #000;
+      }
+
+      .japon{
+        width: 200px;
+        height: 100px;
+        position: relative;
+        background-color: #fff;
+        border: 1px solid #ccc;
+      }
+      .circulo{
+        background-color: red;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        position: absolute;
+        top: calc(50% - 25px);
+        left: calc(50% - 25px);
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="contenedor">
+      <div class="espana">
+          <span class="amarillo"></span>
+      </div>
+      <p>Espana</p>
+    </div>
+    <div class="contenedor">
+      <div class="dinamarca">
+          <span class="vertical"></span>
+          <span class="horizontal"></span>
+      </div>
+      <p>Dinamarca</p>
+    </div>
+    <div class="contenedor">
+        <div class="emiratos">
+            <span class="negra"></span>
+            <span class="verde"></span>
+            <span class="roja"></span>
+        </div>
+        <p>Emiratos Arabes</p>
+    </div>
+    <div class="contenedor">
+      <div class="japon">
+          <span class="circulo"></span>
+      </div>
+      <p>Japon</p>
+    </div>
+  </body>
+</html>
